@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F1F0;
+    height: 100vh;
+}
+
+.container {
+    background-color: #FADCD9;
+    height: 40rem;
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard {
+    height: 35rem;
+    width: 35rem;
+    background-color:#F79489;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.temp-inpt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.result {
+    margin-top: 2rem;
+    align-self: center;
+    border-radius: 1rem;
+}
+
+#degree {
+    height: 2rem;
+    width: 15rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+}
+
+#temp-type {
+    height: 2rem;
+    width: 15rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.result-box {
+    width: 32rem;
+    height: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#result-box1, #result-box2 {
+    margin-bottom: 0.5rem;
+}
+
+#convert {
+    height: 2rem;
+    width: 32rem;
+    align-self: center;
+    margin-top: 2rem;
+    background-color: #F8AFA6;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.5rem;
+}

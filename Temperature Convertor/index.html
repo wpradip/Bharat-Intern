@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="style.css">
+        <title>Temperature Converter</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="dashboard">
+                    <div class="heading"><h1>Temperature Converter</h1></div>
+                    <div class="temp-inpt">
+                        <div class="temp">
+                            <label for="degree">Degrees</label><br>
+                            <input type="number" id="degree"></div>
+                        <div class="type">
+                            <label for="temp-type">Type</label><br>
+                            <select name="temp-type" id="temp-type"> 
+                                <option value="Celcius">Celcius</option> 
+                                <option value="Farehnite">Farehnite</option> 
+                                <option value="Kelvin">Kelvin</option> 
+                            </select>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <h3>Result</h3>
+                        <label for="result-box1" id="result-label1">In Kelvin</label><br>
+                        <input type="number" name="result" id="result-box1" class="result-box"><br>
+                        <label for="result-box2" id="result-label2">In Farehnite</label><br>
+                        <input type="number" name="result" id="result-box2" class="result-box">
+                    </div>
+                    <button type="button" id="convert">Convert</button>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
